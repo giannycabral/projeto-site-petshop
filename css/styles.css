@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#banner {
+    background-image: url('../img/banner-topo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-container-logo {
+    max-width: 250px;
+    color: #3c184e;
+}
+
+.logo-nome img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.banner-container-logo .logo-nome {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.banner-container-logo .slogan {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.banner-container-titulo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.titulo {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.btn-whatsapp {
+    text-align: center;
+    width: 200px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #3c184e;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.btn-whatsapp a {
+    color: #ffff;
+}
+
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+}
+
+.banner-container-titulo img {
+    width: 20px;
+}
+
+#servicos {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+}
+
+.servicos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.servicos-container h2 {
+    color: #37105f;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.servicos-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.servico-item {
+    flex: 0 1 300px;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.servico-item:hover {
+    transform: translateY(-10px);
+}
+
+.servico-item img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+}
+
+.servico-item h3 {
+    color: #37105f;
+    font-size: 1.2rem;
+}
+
+.servico-item p {
+    color: #37105f;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+}
+
+.redes-sociais {
+    background-color: #f8f8f8;
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #37105f;
+}
+
+.social-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-container h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+#marcas {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+}
+
+.marcas-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.marcas-container h2 {
+    color: #37105f;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.marcas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.marcas-grid img {
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.marcas-grid img:hover {
+    transform: scale(1.1);
+}
+
+#redes-sociais-2 {
+    background-color: #37105f;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+#redes-sociais-2 h3 {
+    color: #fff;
+}
+
+#localizacao {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+}
+
+.localizacao-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.localizacao-container h2 {
+    font-size: 2rem;
+    color: #37105f;
+    margin-bottom: 1rem;
+}
+
+.localizacao-container p {
+    font-size: 1.2rem;
+    color: #37105f;
+    margin-bottom: 2rem;
+}
+
+.mapa {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#rodape {
+    background-color: #37105f;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    font-size: 1rem;
+    margin: 0;
+}
